@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: absolute;
+
+    width: 100%;
+    
+    color: #014d26;
+}
+
+.navbar ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+     /* Ajout de l'espacement entre les éléments */
+}
+
+.navbar ul li {
+    
+    list-style: none; /* Supprimer les puces */
+    display: flex; /* Afficher les éléments en ligne */
+    margin: 0 1rem; /* Ajout de l'espacement entre les éléments */
+
+}
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #014d26; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprimer la décoration des liens */
+    transition: color 0.3s ease; /* Transition pour l'effet de survol */
+}
+.navbar ul li a:hover {
+    color: #014d26c4; /* Couleur du texte au survol */
+}
